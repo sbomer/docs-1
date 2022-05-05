@@ -14,6 +14,8 @@ WARNING:
 
 -->
 
+**Note:** this is the "per-architecture" repository for the `ppc64le` builds of [the `logstash` official image](https://hub.docker.com/_/logstash) -- for more information, see ["Architectures other than amd64?" in the official images documentation](https://github.com/docker-library/official-images#architectures-other-than-amd64) and ["An image's source changed in Git, now what?" in the official images FAQ](https://github.com/docker-library/faq#an-images-source-changed-in-git-now-what).
+
 # Quick reference
 
 -	**Maintained by**:  
@@ -24,9 +26,9 @@ WARNING:
 
 # Supported tags and respective `Dockerfile` links
 
--	[`8.2.0`](https://github.com/docker-library/logstash/blob/dc08e4112fe8c01795dd1bac43ce82d21d280247/8/Dockerfile)
--	[`7.17.3`](https://github.com/docker-library/logstash/blob/74c9384f34112e5ee37a0725b71077558bd97a1d/7/Dockerfile)
--	[`6.8.23`](https://github.com/docker-library/logstash/blob/4c31d4c6b43c303275256545b5ac5111afa0f2e1/6/Dockerfile)
+**WARNING:** THIS IMAGE *IS NOT SUPPORTED* ON THE `ppc64le` ARCHITECTURE
+
+[![ppc64le/logstash build status badge](https://img.shields.io/jenkins/s/https/doi-janky.infosiftr.net/job/multiarch/job/ppc64le/job/logstash.svg?label=ppc64le/logstash%20%20build%20job)](https://doi-janky.infosiftr.net/job/multiarch/job/ppc64le/job/logstash/)
 
 # Quick reference (cont.)
 
