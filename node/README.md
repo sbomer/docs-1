@@ -14,6 +14,8 @@ WARNING:
 
 -->
 
+**Note:** this is the "per-architecture" repository for the `windows-amd64` builds of [the `node` official image](https://hub.docker.com/_/node) -- for more information, see ["Architectures other than amd64?" in the official images documentation](https://github.com/docker-library/official-images#architectures-other-than-amd64) and ["An image's source changed in Git, now what?" in the official images FAQ](https://github.com/docker-library/faq#an-images-source-changed-in-git-now-what).
+
 # Quick reference
 
 -	**Maintained by**:  
@@ -24,36 +26,9 @@ WARNING:
 
 # Supported tags and respective `Dockerfile` links
 
--	[`18-alpine3.14`, `18.1-alpine3.14`, `18.1.0-alpine3.14`, `alpine3.14`, `current-alpine3.14`](https://github.com/nodejs/docker-node/blob/38ae136a31e276da1dc6ff6a129a4e429304582d/18/alpine3.14/Dockerfile)
--	[`18-alpine`, `18-alpine3.15`, `18.1-alpine`, `18.1-alpine3.15`, `18.1.0-alpine`, `18.1.0-alpine3.15`, `alpine`, `alpine3.15`, `current-alpine`, `current-alpine3.15`](https://github.com/nodejs/docker-node/blob/38ae136a31e276da1dc6ff6a129a4e429304582d/18/alpine3.15/Dockerfile)
--	[`18`, `18-bullseye`, `18.1`, `18.1-bullseye`, `18.1.0`, `18.1.0-bullseye`, `bullseye`, `current`, `current-bullseye`, `latest`](https://github.com/nodejs/docker-node/blob/38ae136a31e276da1dc6ff6a129a4e429304582d/18/bullseye/Dockerfile)
--	[`18-bullseye-slim`, `18-slim`, `18.1-bullseye-slim`, `18.1-slim`, `18.1.0-bullseye-slim`, `18.1.0-slim`, `bullseye-slim`, `current-bullseye-slim`, `current-slim`, `slim`](https://github.com/nodejs/docker-node/blob/38ae136a31e276da1dc6ff6a129a4e429304582d/18/bullseye-slim/Dockerfile)
--	[`18-buster`, `18.1-buster`, `18.1.0-buster`, `buster`, `current-buster`](https://github.com/nodejs/docker-node/blob/38ae136a31e276da1dc6ff6a129a4e429304582d/18/buster/Dockerfile)
--	[`18-buster-slim`, `18.1-buster-slim`, `18.1.0-buster-slim`, `buster-slim`, `current-buster-slim`](https://github.com/nodejs/docker-node/blob/38ae136a31e276da1dc6ff6a129a4e429304582d/18/buster-slim/Dockerfile)
--	[`17-alpine3.14`, `17.9-alpine3.14`, `17.9.0-alpine3.14`](https://github.com/nodejs/docker-node/blob/2b855be09ac7e83326147026241f42cc02830b04/17/alpine3.14/Dockerfile)
--	[`17-alpine`, `17-alpine3.15`, `17.9-alpine`, `17.9-alpine3.15`, `17.9.0-alpine`, `17.9.0-alpine3.15`](https://github.com/nodejs/docker-node/blob/2b855be09ac7e83326147026241f42cc02830b04/17/alpine3.15/Dockerfile)
--	[`17`, `17-bullseye`, `17.9`, `17.9-bullseye`, `17.9.0`, `17.9.0-bullseye`](https://github.com/nodejs/docker-node/blob/2b855be09ac7e83326147026241f42cc02830b04/17/bullseye/Dockerfile)
--	[`17-bullseye-slim`, `17-slim`, `17.9-bullseye-slim`, `17.9-slim`, `17.9.0-bullseye-slim`, `17.9.0-slim`](https://github.com/nodejs/docker-node/blob/2b855be09ac7e83326147026241f42cc02830b04/17/bullseye-slim/Dockerfile)
--	[`17-buster`, `17.9-buster`, `17.9.0-buster`](https://github.com/nodejs/docker-node/blob/2b855be09ac7e83326147026241f42cc02830b04/17/buster/Dockerfile)
--	[`17-buster-slim`, `17.9-buster-slim`, `17.9.0-buster-slim`](https://github.com/nodejs/docker-node/blob/2b855be09ac7e83326147026241f42cc02830b04/17/buster-slim/Dockerfile)
--	[`17-stretch`, `17.9-stretch`, `17.9.0-stretch`](https://github.com/nodejs/docker-node/blob/2b855be09ac7e83326147026241f42cc02830b04/17/stretch/Dockerfile)
--	[`17-stretch-slim`, `17.9-stretch-slim`, `17.9.0-stretch-slim`](https://github.com/nodejs/docker-node/blob/2b855be09ac7e83326147026241f42cc02830b04/17/stretch-slim/Dockerfile)
--	[`16-alpine3.14`, `16.15-alpine3.14`, `16.15.0-alpine3.14`, `gallium-alpine3.14`, `lts-alpine3.14`](https://github.com/nodejs/docker-node/blob/4e0fff70002f51c2b121c9b231917abcb63d2b1a/16/alpine3.14/Dockerfile)
--	[`16-alpine`, `16-alpine3.15`, `16.15-alpine`, `16.15-alpine3.15`, `16.15.0-alpine`, `16.15.0-alpine3.15`, `gallium-alpine`, `gallium-alpine3.15`, `lts-alpine`, `lts-alpine3.15`](https://github.com/nodejs/docker-node/blob/4e0fff70002f51c2b121c9b231917abcb63d2b1a/16/alpine3.15/Dockerfile)
--	[`16-bullseye`, `16.15-bullseye`, `16.15.0-bullseye`, `gallium-bullseye`, `lts-bullseye`](https://github.com/nodejs/docker-node/blob/4e0fff70002f51c2b121c9b231917abcb63d2b1a/16/bullseye/Dockerfile)
--	[`16-bullseye-slim`, `16.15-bullseye-slim`, `16.15.0-bullseye-slim`, `gallium-bullseye-slim`, `lts-bullseye-slim`](https://github.com/nodejs/docker-node/blob/4e0fff70002f51c2b121c9b231917abcb63d2b1a/16/bullseye-slim/Dockerfile)
--	[`16`, `16-buster`, `16.15`, `16.15-buster`, `16.15.0`, `16.15.0-buster`, `gallium`, `gallium-buster`, `lts`, `lts-buster`, `lts-gallium`](https://github.com/nodejs/docker-node/blob/4e0fff70002f51c2b121c9b231917abcb63d2b1a/16/buster/Dockerfile)
--	[`16-buster-slim`, `16-slim`, `16.15-buster-slim`, `16.15-slim`, `16.15.0-buster-slim`, `16.15.0-slim`, `gallium-buster-slim`, `gallium-slim`, `lts-buster-slim`, `lts-slim`](https://github.com/nodejs/docker-node/blob/4e0fff70002f51c2b121c9b231917abcb63d2b1a/16/buster-slim/Dockerfile)
--	[`16-stretch`, `16.15-stretch`, `16.15.0-stretch`, `gallium-stretch`, `lts-stretch`](https://github.com/nodejs/docker-node/blob/4e0fff70002f51c2b121c9b231917abcb63d2b1a/16/stretch/Dockerfile)
--	[`16-stretch-slim`, `16.15-stretch-slim`, `16.15.0-stretch-slim`, `gallium-stretch-slim`, `lts-stretch-slim`](https://github.com/nodejs/docker-node/blob/4e0fff70002f51c2b121c9b231917abcb63d2b1a/16/stretch-slim/Dockerfile)
--	[`14-alpine3.14`, `14.19-alpine3.14`, `14.19.1-alpine3.14`, `fermium-alpine3.14`](https://github.com/nodejs/docker-node/blob/6e8f32de3f620833e563e9f2b427d50055783801/14/alpine3.14/Dockerfile)
--	[`14-alpine`, `14-alpine3.15`, `14.19-alpine`, `14.19-alpine3.15`, `14.19.1-alpine`, `14.19.1-alpine3.15`, `fermium-alpine`, `fermium-alpine3.15`](https://github.com/nodejs/docker-node/blob/6e8f32de3f620833e563e9f2b427d50055783801/14/alpine3.15/Dockerfile)
--	[`14-bullseye`, `14.19-bullseye`, `14.19.1-bullseye`, `fermium-bullseye`](https://github.com/nodejs/docker-node/blob/6e8f32de3f620833e563e9f2b427d50055783801/14/bullseye/Dockerfile)
--	[`14-bullseye-slim`, `14.19-bullseye-slim`, `14.19.1-bullseye-slim`, `fermium-bullseye-slim`](https://github.com/nodejs/docker-node/blob/6e8f32de3f620833e563e9f2b427d50055783801/14/bullseye-slim/Dockerfile)
--	[`14-buster`, `14.19-buster`, `14.19.1-buster`, `fermium-buster`](https://github.com/nodejs/docker-node/blob/6e8f32de3f620833e563e9f2b427d50055783801/14/buster/Dockerfile)
--	[`14-buster-slim`, `14.19-buster-slim`, `14.19.1-buster-slim`, `fermium-buster-slim`](https://github.com/nodejs/docker-node/blob/6e8f32de3f620833e563e9f2b427d50055783801/14/buster-slim/Dockerfile)
--	[`14`, `14-stretch`, `14.19`, `14.19-stretch`, `14.19.1`, `14.19.1-stretch`, `fermium`, `fermium-stretch`](https://github.com/nodejs/docker-node/blob/6e8f32de3f620833e563e9f2b427d50055783801/14/stretch/Dockerfile)
--	[`14-slim`, `14-stretch-slim`, `14.19-slim`, `14.19-stretch-slim`, `14.19.1-slim`, `14.19.1-stretch-slim`, `fermium-slim`, `fermium-stretch-slim`](https://github.com/nodejs/docker-node/blob/6e8f32de3f620833e563e9f2b427d50055783801/14/stretch-slim/Dockerfile)
+**WARNING:** THIS IMAGE *IS NOT SUPPORTED* ON THE `windows-amd64` ARCHITECTURE
+
+[![winamd64/node build status badge](https://img.shields.io/jenkins/s/https/doi-janky.infosiftr.net/job/multiarch/job/windows-amd64/job/node.svg?label=winamd64/node%20%20build%20job)](https://doi-janky.infosiftr.net/job/multiarch/job/windows-amd64/job/node/)
 
 # Quick reference (cont.)
 
@@ -89,30 +64,6 @@ Node.js internally uses the Google V8 JavaScript engine to execute code; a large
 # How to use this image
 
 See [How To Use This Image](https://github.com/nodejs/docker-node/blob/master/README.md#how-to-use-this-image) on GitHub for up-to-date documentation.
-
-# Image Variants
-
-The `node` images come in many flavors, each designed for a specific use case.
-
-## `node:<version>`
-
-This is the defacto image. If you are unsure about what your needs are, you probably want to use this one. It is designed to be used both as a throw away container (mount your source code and start the container to start your app), as well as the base to build other images off of.
-
-Some of these tags may have names like bullseye, buster, or stretch in them. These are the suite code names for releases of [Debian](https://wiki.debian.org/DebianReleases) and indicate which release the image is based on. If your image needs to install any additional packages beyond what comes with the image, you'll likely want to specify one of these explicitly to minimize breakage when there are new releases of Debian.
-
-This tag is based off of [`buildpack-deps`](https://hub.docker.com/_/buildpack-deps/). `buildpack-deps` is designed for the average user of Docker who has many images on their system. It, by design, has a large number of extremely common Debian packages. This reduces the number of packages that images that derive from it need to install, thus reducing the overall size of all images on your system.
-
-## `node:<version>-alpine`
-
-This image is based on the popular [Alpine Linux project](https://alpinelinux.org), available in [the `alpine` official image](https://hub.docker.com/_/alpine). Alpine Linux is much smaller than most distribution base images (~5MB), and thus leads to much slimmer images in general.
-
-This variant is useful when final image size being as small as possible is your primary concern. The main caveat to note is that it does use [musl libc](https://musl.libc.org) instead of [glibc and friends](https://www.etalabs.net/compare_libcs.html), so software will often run into issues depending on the depth of their libc requirements/assumptions. See [this Hacker News comment thread](https://news.ycombinator.com/item?id=10782897) for more discussion of the issues that might arise and some pro/con comparisons of using Alpine-based images.
-
-To minimize image size, it's uncommon for additional related tools (such as `git` or `bash`) to be included in Alpine-based images. Using this image as a base, add the things you need in your own Dockerfile (see the [`alpine` image description](https://hub.docker.com/_/alpine/) for examples of how to install packages if you are unfamiliar).
-
-## `node:<version>-slim`
-
-This image does not contain the common packages contained in the default tag and only contains the minimal packages needed to run `node`. Unless you are working in an environment where *only* the `node` image will be deployed and you have space constraints, we highly recommend using the default image of this repository.
 
 # License
 
