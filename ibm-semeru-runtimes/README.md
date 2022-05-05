@@ -14,6 +14,8 @@ WARNING:
 
 -->
 
+**Note:** this is the "per-architecture" repository for the `arm64v8` builds of [the `ibm-semeru-runtimes` official image](https://hub.docker.com/_/ibm-semeru-runtimes) -- for more information, see ["Architectures other than amd64?" in the official images documentation](https://github.com/docker-library/official-images#architectures-other-than-amd64) and ["An image's source changed in Git, now what?" in the official images FAQ](https://github.com/docker-library/faq#an-images-source-changed-in-git-now-what).
+
 # Quick reference
 
 -	**Maintained by**:  
@@ -36,10 +38,6 @@ WARNING:
 -	[`open-11.0.15_10-jdk-centos7`, `open-11-jdk-centos7`](https://github.com/ibmruntimes/semeru-containers/blob/c732a9e86ffbbcf70be85d9f85dc05884eb24d76/11/jdk/centos/Dockerfile.open.releases.full)
 -	[`open-11.0.15_10-jre-focal`, `open-11-jre-focal`](https://github.com/ibmruntimes/semeru-containers/blob/c732a9e86ffbbcf70be85d9f85dc05884eb24d76/11/jre/ubuntu/Dockerfile.open.releases.full)
 -	[`open-11.0.15_10-jre-centos7`, `open-11-jre-centos7`](https://github.com/ibmruntimes/semeru-containers/blob/c732a9e86ffbbcf70be85d9f85dc05884eb24d76/11/jre/centos/Dockerfile.open.releases.full)
--	[`open-16.0.2_7-jdk-focal`, `open-16-jdk-focal`](https://github.com/ibmruntimes/semeru-containers/blob/c732a9e86ffbbcf70be85d9f85dc05884eb24d76/16/jdk/ubuntu/Dockerfile.open.releases.full)
--	[`open-16.0.2_7-jdk-centos7`, `open-16-jdk-centos7`](https://github.com/ibmruntimes/semeru-containers/blob/c732a9e86ffbbcf70be85d9f85dc05884eb24d76/16/jdk/centos/Dockerfile.open.releases.full)
--	[`open-16.0.2_7-jre-focal`, `open-16-jre-focal`](https://github.com/ibmruntimes/semeru-containers/blob/c732a9e86ffbbcf70be85d9f85dc05884eb24d76/16/jre/ubuntu/Dockerfile.open.releases.full)
--	[`open-16.0.2_7-jre-centos7`, `open-16-jre-centos7`](https://github.com/ibmruntimes/semeru-containers/blob/c732a9e86ffbbcf70be85d9f85dc05884eb24d76/16/jre/centos/Dockerfile.open.releases.full)
 -	[`open-17.0.3_7-jdk-focal`, `open-17-jdk-focal`](https://github.com/ibmruntimes/semeru-containers/blob/c732a9e86ffbbcf70be85d9f85dc05884eb24d76/17/jdk/ubuntu/Dockerfile.open.releases.full)
 -	[`open-17.0.3_7-jdk-centos7`, `open-17-jdk-centos7`](https://github.com/ibmruntimes/semeru-containers/blob/c732a9e86ffbbcf70be85d9f85dc05884eb24d76/17/jdk/centos/Dockerfile.open.releases.full)
 -	[`open-17.0.3_7-jre-focal`, `open-17-jre-focal`](https://github.com/ibmruntimes/semeru-containers/blob/c732a9e86ffbbcf70be85d9f85dc05884eb24d76/17/jre/ubuntu/Dockerfile.open.releases.full)
@@ -59,10 +57,6 @@ WARNING:
 	-	[`open-11.0.15_10-jdk-focal`](https://github.com/ibmruntimes/semeru-containers/blob/c732a9e86ffbbcf70be85d9f85dc05884eb24d76/11/jdk/ubuntu/Dockerfile.open.releases.full)
 -	`open-11.0.15_10-jre`, `open-11-jre`:
 	-	[`open-11.0.15_10-jre-focal`](https://github.com/ibmruntimes/semeru-containers/blob/c732a9e86ffbbcf70be85d9f85dc05884eb24d76/11/jre/ubuntu/Dockerfile.open.releases.full)
--	`open-16.0.2_7-jdk`, `open-16-jdk`:
-	-	[`open-16.0.2_7-jdk-focal`](https://github.com/ibmruntimes/semeru-containers/blob/c732a9e86ffbbcf70be85d9f85dc05884eb24d76/16/jdk/ubuntu/Dockerfile.open.releases.full)
--	`open-16.0.2_7-jre`, `open-16-jre`:
-	-	[`open-16.0.2_7-jre-focal`](https://github.com/ibmruntimes/semeru-containers/blob/c732a9e86ffbbcf70be85d9f85dc05884eb24d76/16/jre/ubuntu/Dockerfile.open.releases.full)
 -	`open-17.0.3_7-jdk`, `open-17-jdk`:
 	-	[`open-17.0.3_7-jdk-focal`](https://github.com/ibmruntimes/semeru-containers/blob/c732a9e86ffbbcf70be85d9f85dc05884eb24d76/17/jdk/ubuntu/Dockerfile.open.releases.full)
 -	`open-17.0.3_7-jre`, `open-17-jre`:
@@ -71,6 +65,8 @@ WARNING:
 	-	[`open-18.0.1_10-jdk-focal`](https://github.com/ibmruntimes/semeru-containers/blob/c732a9e86ffbbcf70be85d9f85dc05884eb24d76/18/jdk/ubuntu/Dockerfile.open.releases.full)
 -	`open-18.0.1_10-jre`, `open-18-jre`:
 	-	[`open-18.0.1_10-jre-focal`](https://github.com/ibmruntimes/semeru-containers/blob/c732a9e86ffbbcf70be85d9f85dc05884eb24d76/18/jre/ubuntu/Dockerfile.open.releases.full)
+
+[![arm64v8/ibm-semeru-runtimes build status badge](https://img.shields.io/jenkins/s/https/doi-janky.infosiftr.net/job/multiarch/job/arm64v8/job/ibm-semeru-runtimes.svg?label=arm64v8/ibm-semeru-runtimes%20%20build%20job)](https://doi-janky.infosiftr.net/job/multiarch/job/arm64v8/job/ibm-semeru-runtimes/)
 
 # Quick reference (cont.)
 
@@ -104,7 +100,7 @@ The IBM Semeru Runtimes are free production-ready open source binaries built wit
 To run a pre-built japp.jar file with the latest OpenJDK 11, use the following Dockerfile:
 
 ```dockerfile
-FROM ibm-semeru-runtimes:11
+FROM arm64v8/ibm-semeru-runtimes:11
 RUN mkdir /opt/app
 COPY japp.jar /opt/app
 CMD ["java", "-jar", "/opt/app/japp.jar"]
@@ -125,7 +121,7 @@ If you are using a distribution that we don't provide an image for you can copy 
 # Example
 FROM <base image>
 ENV JAVA_HOME=/opt/java/openjdk
-COPY --from=ibm-semeru-runtimes:11 $JAVA_HOME $JAVA_HOME
+COPY --from=arm64v8/ibm-semeru-runtimes:11 $JAVA_HOME $JAVA_HOME
 ENV PATH="${JAVA_HOME}/bin:${PATH}"
 ```
 
